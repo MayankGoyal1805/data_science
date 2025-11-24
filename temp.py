@@ -1,2 +1,6 @@
-a = (0,1,1,2,3,7,7,23)
+import os
 
+p = os.path.abspath(__file__)   # Get absolute path
+print(p)
+print("Current Directory:", os.path.abspath("."))
+print("Parent Directory:", os.path.abspath(".."))
